@@ -12,7 +12,7 @@ const getGroupId = async (accessToken) => {
 };
 
 const getTotalClicks = async (id, accessToken) => {
-  const response = await axios.get(BITLY_API_URL + `/bitlinks/${id}/clicks/summary?unit=month&units=1`, {
+  const response = await axios.get(BITLY_API_URL + `/bitlinks/${id}/clicks/summary?unit=day&units=30`, {
     headers: {
       Authorization: accessToken
     }
@@ -21,7 +21,7 @@ const getTotalClicks = async (id, accessToken) => {
 };
 
 const getClicksByCountry = async (id, countryClickCount, accessToken) => {
-  const response = await axios.get(BITLY_API_URL + `/bitlinks/${id}/countries?unit=month&units=1`, {
+  const response = await axios.get(BITLY_API_URL + `/bitlinks/${id}/countries?unit=day&units=30`, {
     headers: {
       Authorization: accessToken
     }
