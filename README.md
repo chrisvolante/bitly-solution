@@ -23,6 +23,15 @@ npm start
 
 ## Documentation
 
+### Design Decisions
+
+### Dependencies
+
+* Express 4.16.3
+* Axios 0.18.0
+
+## API
+
 `/v1/metrics/countries` - GET
 
 ### Header Parameters
