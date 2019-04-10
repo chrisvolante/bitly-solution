@@ -25,6 +25,10 @@ npm start
 
 ### Design Decisions
 
+To improve readability of code, I used 
+* [ES7 async/await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) along with 3rd party library [Axios](https://www.npmjs.com/package/axios) to handle HTTP requests
+* Applied Separation of Concerns Principles to functions and file structure
+
 ### Dependencies
 
 * Express 4.16.4 - HTTP server
