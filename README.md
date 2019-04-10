@@ -27,8 +27,8 @@ npm start
 
 ### Dependencies
 
-* Express 4.16.3
-* Axios 0.18.0
+* Express 4.16.3 - HTTP server
+* Axios 0.18.0 - HTTP client
 
 ## API
 
