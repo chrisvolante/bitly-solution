@@ -42,7 +42,7 @@ To improve readability of code, I used
 
 `Authorization: Bearer {token}`
 
-### Responses
+### Response Status Codes
 
 * 500 Internal Error
 * 400 Client Error
