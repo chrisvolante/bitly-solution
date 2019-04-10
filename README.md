@@ -31,9 +31,9 @@ npm start
 
 ### Responses
 
-500 Internal Error
-400 Client Error
-200 Success
+* 500 Internal Error
+* 400 Client Error
+* 200 Success
 
 ### Samples Response
 
