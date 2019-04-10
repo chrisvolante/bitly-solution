@@ -25,36 +25,36 @@ npm start
 
 `/v1/metrics/countries` - GET
 
-Path Parameters
+### Header Parameters
 
-bitlink
-required
-string
-A Bitlink made of the domain and hash
+`Authorization: Bearer {token}`
 
-Query Parameters
+### Responses
 
-unit
-required
-string
-Default: "day"
-Enum:"minute" "hour" "day" "week" "month"
-A unit of time
+500 Internal Error
+400 Client Error
+200 Success
 
-units
-required
-integer
-Default: -1
-An integer representing the time units to query data for. pass -1 to return all units of time.
+### Samples Response
 
-Responses
+```json
+{
+    "metrics": [
+        {
+            "country": "US",
+            "average_clicks": 0.7894736842105263
+        },
+        {
+            "country": "PH",
+            "average_clicks": 0.21052631578947367
+        }
+    ],
+    "groupId": "Bj42iEvOLyZ"
+}
+```
 
-500
-400
-200
+### Samples Request
 
-Samples
-Response
+#### curl
 
-Write a postman collection
-Write a curl command
+`curl -H "authorization:Bearer 84a846c11276c2570aa2403cbd8928f6d046af14" localhost:8080/v1/metrics/countries`
