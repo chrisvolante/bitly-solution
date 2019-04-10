@@ -1,13 +1,13 @@
 {
   "name": "bitly-solution",
   "version": "1.0.0",
-  "description": "",
+  "description": "Getting the average number of clicks Bitlinks in the user's default group received from each country over the last 30 days.",
   "main": "app.js",
   "scripts": {
     "start": "node app",
     "dev": "nodemon app"
   },
-  "author": "",
+  "author": "Christopher Volante",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
