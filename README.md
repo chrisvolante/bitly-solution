@@ -57,4 +57,6 @@ npm start
 
 #### curl
 
-`curl -H "authorization:Bearer 84a846c11276c2570aa2403cbd8928f6d046af14" localhost:8080/v1/metrics/countries`
+```bash
+curl -H "authorization:Bearer {token}" localhost:8080/v1/metrics/countries
+```
