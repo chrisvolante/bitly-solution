@@ -58,7 +58,7 @@ npm start
             "average_clicks": 0.21052631578947367
         }
     ],
-    "groupId": "Bj42iEvOLyZ"
+    "groupId": "{String}"
 }
 ```
 
